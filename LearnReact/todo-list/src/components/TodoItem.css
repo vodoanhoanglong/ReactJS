@@ -1,0 +1,24 @@
+.TodoItem{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    padding: 10px 5px;
+    border-bottom: 1px solid #EEE;
+    display: flex;
+}
+
+.TodoItem:last-child
+{
+    border-bottom: none;
+}
+
+.TodoItem > p {
+    margin: 0 0 0 15px;
+}
+
+.TodoItem-complete > p
+{   
+    text-decoration: line-through;
+    opacity: .3;
+} 
